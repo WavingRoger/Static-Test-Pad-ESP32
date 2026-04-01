@@ -1,0 +1,67 @@
+# =========================
+# ESP-IDF Build Artifacts
+# =========================
+build/
+build-*/
+*.elf
+*.bin
+*.map
+*.hex
+
+# =========================
+# CMake / Ninja
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+.ninja_deps
+.ninja_log
+
+# =========================
+# ESP-IDF Generated Files
+# =========================
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults
+flasher_args.json
+partition_table/
+bootloader/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# =========================
+# Logs / Data (IMPORTANT)
+# =========================
+*.csv
+*.log
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Serial / temp files
+# =========================
+*.tmp
+*.bak
